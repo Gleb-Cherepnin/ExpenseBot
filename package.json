@@ -1,0 +1,22 @@
+{
+  "name": "expensebot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx tsx src/bot.ts",
+    "build": "npx tsc",
+    "start": "node dist/bot.js",
+    "test": "npx tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "sqlite3": "^5.1.7",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/sqlite3": "^5.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
